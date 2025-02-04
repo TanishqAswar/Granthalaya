@@ -1,0 +1,33 @@
+/* AI Assistant Badge */
+.ai-assistant {
+  position: fixed;
+  bottom: 20px; /* Adjust above the footer */
+  right: 20px; /* Distance from the right edge */
+  z-index: 1000; /* Ensure it floats above other elements */
+}
+
+.ai-badge {
+  width: 60px;
+  height: 60px;
+  background-color: #FFD700; /* Golden yellow for spiritual touch */
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  position: relative;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.ai-badge:hover {
+  transform: scale(1.1); /* Zoom effect */
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* AI Icon Styling */
+.ai-icon {
+  width: 50px;
+  height: 50px;
+  object-fit: contain; /* Ensure the icon scales proportionally */
+}
